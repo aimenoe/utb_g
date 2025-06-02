@@ -1,0 +1,48 @@
+#overview, .call {
+    text-align: justify;
+    padding: 10px 10px;
+    width: fit-content;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.header {
+    /* background-color:aqua; */
+    text-align: center;
+    /* border-style: groove; */
+    
+}
+
+.login {
+    padding-left: 10px;
+    padding-right: 14px;
+}
+
+.button {
+    display: flex;
+    justify-content: right;
+    gap: 9px;
+}
+
+button {
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: 50vh;
+}
+
+.call {
+    font-family: 'Times New Roman';
+    font-style: italic;
+}
