@@ -1,4 +1,4 @@
-input:not(:placeholder-shown), input:focus(:placeholder-shown) {
+input:not(:placeholder-shown){
     border: 2px solid #4CAF50;
 
 }
@@ -21,4 +21,7 @@ option {
 select {
     padding: 5px;
     border-radius: 10px;
+}
+select:valid {
+    border: 2px solid #4CAF50;
 }
