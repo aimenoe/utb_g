@@ -18,14 +18,16 @@ input {
 option {
     padding: 5px;
     border-radius: 10px;
+    background:none
 }
 
 select {
+    background: none;
     padding: 5px;
     border-radius: 10px;
 }
 select.title:valid {
     /* padding: 5px; */
     border: 2px solid #4CAF50;
-    background  : none;
+    background: none;
 }
