@@ -7,6 +7,13 @@ input::placeholder {
     /* text-align: center; */
     text-indent: 5px;
 }
+label {
+    font-weight: bold;
+    color: #333;
+    display: block;
+    text-indent: 10px;
+    margin-bottom: 5px;
+}
 
 input {
     padding: 3px;
