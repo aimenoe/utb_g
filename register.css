@@ -1,5 +1,11 @@
+input:not(:placeholder-shown), input:focus(:placeholder-shown) {
+    border: 2px solid #4CAF50;
+
+}
+
 input::placeholder {
-    text-align: center;
+    /* text-align: center; */
+    text-indent: 5px;
 }
 
 input {
