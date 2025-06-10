@@ -46,15 +46,21 @@
                 <option value="Student" class="option">Student</option>
             </select><br><br>
             <label for="continent">Your continent</label>
-            <select name="continent" class="continent">
-                <option value="" >-- Choose your continent --</option>
+            <select name="continent" class="continent" required>
+                <option value="" class="first">-- Choose your continent --</option>
                 <option value="North America" >North America</option>
                 <option value="South America" >South America</option>
                 <option value="Australia" >Australia</option>
                 <option value="Assia" >Assia</option>
                 <option value="Africa" >Africa</option>
                 <option value="Europe" >Europe</option>
-            </select>
+            </select><br><br>
+        <label for="attending">Attendance</label>
+        <select name="attend" class="attend">
+            <option value="">-- my attending ---</option>
+            <option value="in-person">In person</option>
+            <option value="online">Online</option>
+        </select>        
         </form>
      </div>
     </div>
