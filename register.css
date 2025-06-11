@@ -71,3 +71,9 @@ input.attending {
 input.online {
     margin: none
 }
+
+select.language:valid {
+    border: 2px solid #4CAF50;
+    background: none;
+
+}
