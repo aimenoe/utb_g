@@ -1,0 +1,9 @@
+[33mcommit fd48c1b3ba0359ba96001dc5dd5a9b0304bc6163[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: aimenoe <uaimefrancois@gmai.com>
+Date:   Wed Jun 11 07:59:34 2025 +0200
+
+    Adding new feature
+
+ register.css  | 25 [32m++++++++++++++++++++++[m[31m---[m
+ register.html | 16 [32m++++++++++[m[31m------[m
+ 2 files changed, 32 insertions(+), 9 deletions(-)
